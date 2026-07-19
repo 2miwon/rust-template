@@ -1,0 +1,11 @@
+[package]
+name = "rust-template"
+version = "0.1.0"
+edition = "2021"
+description = "A Rust template following the official Cargo package layout"
+readme = "README.md"
+
+[dependencies]
+thiserror = "2"
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
